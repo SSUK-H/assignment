@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #111;
+  text-decoration: none;
+}
+.posts {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 10%;
+}
+.posts_inner {
+  width: 100%;
+}
+.posts_title {
+  text-align: center;
+}
+.container {
+  margin-top: 40px;
+  width: 100%;
+}
+.container ul {
+  width: 100%;
+}
+.container li {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px 5%;
+  border-bottom: 1px solid #e2e2e2;
+}
+.write,
+.save {
+  width: 100%;
+  margin-top: 30px;
+  line-height: 3rem;
+  background-color: #111;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.write a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.form {
+}
+.input_title,
+.input_content {
+  display: block;
+  width: 100%;
+  line-height: 1.2rem;
+  padding: 10px;
+}
+.input_content,
+.content {
+  margin-top: 20px;
+  height: 500px;
+  resize: none;
+}
+.button_box {
+  display: flex;
+  justify-content: space-between;
+}
+.edit,
+.del {
+  width: 45%;
+  margin-top: 30px;
+  line-height: 3rem;
+  background-color: #111;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.edit a,
+.del a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
